@@ -10,10 +10,13 @@ public class ObjectChose : Cube {
     public GameObject capsule;
 
 
+    [SerializeField] GameObject stack;
+
+
     private void Start()
     {
-      
-       CubeSpawn();
+
+        SpawnObject(cube);
 
     
     }
@@ -24,27 +27,56 @@ public class ObjectChose : Cube {
         speed = 10;
     }
 
+
+    public void SpawnObject(GameObject prefab)
+    {
+        GameObject child = Instantiate(prefab);
+        if(stack)
+        {
+            child.transform.parent = stack.transform;
+        }
+
+
+    }
+
     public void CubeSpawn()
     {
+        /*
         NewObject();
         cube.SetActive(true);
         sphere.SetActive(false);
         capsule.SetActive(false);
+        */
+
+
+        SpawnObject(cube);
+        
+
+        
+
+
     }
 
     public void SphereSpwan()
     {
+        /*
         NewObject();
         cube.SetActive(false);
         sphere.SetActive(true);
-        capsule.SetActive(false);
+        capsule.SetActive(false);*/
+
+        SpawnObject(sphere);
     }
 
     public void CapsuleSpawn()
     {
+        /*
         NewObject();
         capsule.SetActive(true);
         cube.SetActive(false);
         sphere.SetActive(false);
+        */
+
+        SpawnObject(capsule);
     }
 }
