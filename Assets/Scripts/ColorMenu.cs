@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OptionsMenu : Menu<OptionsMenu>
-{
-
-    #region Menu Controls
+public class ColorMenu : Menu<ColorMenu> {
 
     public static void Show()
     {
@@ -15,9 +12,6 @@ public class OptionsMenu : Menu<OptionsMenu>
     public static void Hide()
     {
         Close();
-        
+
     }
-
-
-    #endregion
 }

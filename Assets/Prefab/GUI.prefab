@@ -85,6 +85,8 @@ MonoBehaviour:
   menuPrefabs:
   - {fileID: 114993076301366952, guid: 736e1ea71ad2f214587b7479094bfa10, type: 2}
   - {fileID: 114052490189549398, guid: 6376081b2e06a2c488aadb608f826712, type: 2}
+  - {fileID: 114396613953451722, guid: f488dcd23bb5adf4f860e7ab6b9d20bb, type: 2}
+  - {fileID: 114291776237439716, guid: 5758729647d031f4aa36042ee5fbd7f5, type: 2}
 --- !u!114 &114346545760156196
 MonoBehaviour:
   m_ObjectHideFlags: 1

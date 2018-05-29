@@ -45,9 +45,9 @@ public class SimpleMenu : Menu<SimpleMenu>
 
     #region Button Handler
 
-    public void ShowOptionsMenu()
+    public void ShowMoreOptionMenu()
     {
-        OptionsMenu.Show();
+        MoreOption.Show();
     }
 
     #endregion
