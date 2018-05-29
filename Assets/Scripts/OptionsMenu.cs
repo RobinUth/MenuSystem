@@ -15,6 +15,7 @@ public class OptionsMenu : Menu<OptionsMenu>
     public static void Hide()
     {
         Close();
+        
     }
 
     #endregion
