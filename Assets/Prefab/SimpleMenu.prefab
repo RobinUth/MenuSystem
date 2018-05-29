@@ -423,10 +423,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114930114552981152, guid: 8ee50ddc303f1ac42997dabfa3bc1a6f,
-          type: 2}
+      - m_Target: {fileID: 0}
         m_MethodName: AdjustSize
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -435,10 +434,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114124290558917596, guid: 91138b65b159b5e48af96d3e10ced605,
-          type: 2}
+      - m_Target: {fileID: 0}
         m_MethodName: AdjustSize
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -447,10 +445,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114099985561283424, guid: 5105af2f2cce3e24f9c149c567cbd13c,
-          type: 2}
+      - m_Target: {fileID: 0}
         m_MethodName: AdjustSize
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -687,10 +684,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114930114552981152, guid: 8ee50ddc303f1ac42997dabfa3bc1a6f,
-          type: 2}
+      - m_Target: {fileID: 0}
         m_MethodName: AdjustSpeed
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -699,10 +695,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114124290558917596, guid: 91138b65b159b5e48af96d3e10ced605,
-          type: 2}
+      - m_Target: {fileID: 0}
         m_MethodName: AdjustSpeed
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -711,10 +706,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114099985561283424, guid: 5105af2f2cce3e24f9c149c567cbd13c,
-          type: 2}
+      - m_Target: {fileID: 0}
         m_MethodName: AdjustSpeed
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
